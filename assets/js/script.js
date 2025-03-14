@@ -113,9 +113,17 @@ const translateToBangla = async (text) => {
             }),
         });
         const data = await response.json();
-        banglaElement.textContent = `বাংলা অনুবাদ: ${data.translatedText}`;
+
+        // Check if translation is available
+        if (data.translatedText) {
+            banglaElement.textContent = `বাংলা অনুবাদ: ${data.translatedText}`;
+        } else {
+            // Fallback message if translation is undefined
+            banglaElement.textContent = "বাংলা অনুবাদ: শিগগিরই উপলব্ধ হবে...। (Coming soon...)";
+        }
     } catch (error) {
         console.error("Error translating Hadith:", error);
+        // Fallback message if API call fails
         banglaElement.textContent = "বাংলা অনুবাদ: শিগগিরই উপলব্ধ হবে...। (Coming soon...)";
     }
 };
