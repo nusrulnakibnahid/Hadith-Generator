@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunnah Sparks - Random Hadith Generator</title>
+    <link rel="icon" type="image/png" href="assets/images/new logo.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Language and Theme Toggle -->
+    <div class="top-right-options">
+        <button id="langToggle" class="btn btn-sm btn-outline-secondary me-2">
+            <span id="langIcon">🌐</span>
+        </button>
+        <button id="themeToggle" class="btn btn-sm btn-outline-secondary">
+            <span id="themeIcon">🌙</span>
+        </button>
+    </div>
+
+    <div class="container text-center py-5">
+        <!-- Logo -->
+        <div id="logo-container" class="mb-4">
+            <img src="assets/images/new logo.png" alt="Sunnah Sparks Logo" class="logo">
+        </div>
+
+        <!-- Title -->
+        <h1 id="appTitle" class="display-4 mb-4">Sunnah Sparks</h1>
+
+        <!-- Hadith Number Search -->
+        <div class="input-group mb-4">
+            <input id="hadithNumberInput" type="text" class="form-control" placeholder="Enter Hadith Number">
+            <button id="searchBtn" class="btn btn-outline-primary">Search</button>
+        </div>
+
+         <!-- Hadith Book Selection -->
+         <select id="hadithBook" class="form-select mb-4">
+            <option value="bukhari">Bukhari</option>
+            <option value="muslim">Muslim</option>
+            <option value="abudawud">Abu Dawud</option>
+            <option value="ibnmajah">Ibn Majah</option>
+            <option value="tirmidhi">Tirmidhi</option>
+        </select>
+
+        <!-- Hadith Display -->
+        <div class="card p-4 mb-4 shadow">
+            <p id="hadith-text" class="lead mb-4">Click the button to generate a random Hadith.</p>
+            <h5 id="book" class="text-muted mb-4"></h5>
+            <p id="bangla-translation" class="bangla-text"></p>
+        </div>
+
+       
+
+        <!-- Generate Button -->
+        <button id="generateBtn" class="btn btn-primary mb-0">Give a Random Hadith</button>
+
+        <!-- Social Media Share Button -->
+        <button id="shareBtn" class="btn btn-success">Share on Social Media</button>
+    </div>
+               
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-primary text-white">
+        
+        <div class="mt-2">
+            <!-- Icon -->
+            <a href="https://www.facebook.com/nakibnahid.restricted" target="_blank" class="text-white mx-2">
+                <i class="fab fa-facebook-f"></i> 
+            </a>
+            <a href="https://github.com/nusrulnakibnahid" target="_blank" class="text-white mx-2">
+                <i class="fab fa-github"></i> 
+            </a>
+            <a href="https://www.linkedin.com/in/nakib-nahid" target="_blank" class="text-white mx-2">
+                <i class="fab fa-linkedin-in"></i> 
+            </a>
+        </div>
+
+        <p class="mb-0">Sunnah Sparks © 2025 | FAQ </p>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
