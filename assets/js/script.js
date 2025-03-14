@@ -149,7 +149,7 @@ shareButtonElement.addEventListener("click", () => {
 
 langToggle.addEventListener("click", () => {
     isEnglish = !isEnglish;
-    langIcon.textContent = isEnglish ? "🌐" : "🇧🇩";
+    langIcon.textContent = isEnglish ? "🌐" : "বাং";
     updateLanguage();
 });
 
