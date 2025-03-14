@@ -118,13 +118,13 @@ const translateToBangla = async (text) => {
         if (data.translatedText) {
             banglaElement.textContent = `বাংলা অনুবাদ: ${data.translatedText}`;
         } else {
-            // Fallback message if translation is undefined
-            banglaElement.textContent = "বাংলা অনুবাদ: শিগগিরই উপলব্ধ হবে...। (Coming soon...)";
+            
+            banglaElement.textContent = "বাংলা অনুবাদ: শিগগিরই উপলব্ধ হবে...";
         }
     } catch (error) {
         console.error("Error translating Hadith:", error);
-        // Fallback message if API call fails
-        banglaElement.textContent = "বাংলা অনুবাদ: শিগগিরই উপলব্ধ হবে...। (Coming soon...)";
+        
+        banglaElement.textContent = "বাংলা অনুবাদ: শিগগিরই উপলব্ধ হবে...";
     }
 };
 

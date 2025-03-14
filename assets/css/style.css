@@ -26,8 +26,8 @@ body.dark-mode {
     right: 20px;
     z-index: 1000;
     display: flex;
-    flex-direction: column; /* Stack buttons vertically */
-    gap: 10px; /* Add gap between buttons */
+    flex-direction: column; 
+    gap: 10px; 
 }
 
 .top-right-options .btn {
@@ -42,7 +42,7 @@ body.dark-mode {
 }
 
 .top-right-options .btn:hover {
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    transform: scale(1.1); 
 }
 
 /* Logo */
@@ -73,8 +73,8 @@ body.dark-mode #appTitle {
     padding: 10px 20px;
     border: 1px solid #ddd;
     transition: border-color 0.3s, background-color 0.3s, color 0.3s;
-    font-family: 'Hind Siliguri', sans-serif; /* Apply Hind Siliguri to input */
-    font-weight: 600; /* Bold for Bangla text */
+    font-family: 'Hind Siliguri', sans-serif; 
+    font-weight: 600; 
 }
 
 body.dark-mode #hadithNumberInput {
@@ -123,23 +123,23 @@ body.dark-mode #hadith-text {
 
 #book {
     font-size: 1rem;
-    color: #666; /* Light gray for light mode */
+    color: #666; 
     margin-bottom: 1.5rem;
-    font-family: 'Hind Siliguri', sans-serif; /* Apply Hind Siliguri to reference */
-    font-weight: 600; /* Bold for Bangla text */
+    font-family: 'Hind Siliguri', sans-serif; 
+    font-weight: 600; 
 }
 
 body.dark-mode #book {
-    color: #fff; /* White for dark mode */
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Glow effect */
+    color: #fff; 
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8); 
 }
 
 #bangla-translation {
-    font-family: 'Hind Siliguri', sans-serif; /* Best Bangla font */
+    font-family: 'Hind Siliguri', sans-serif; 
     font-size: 1.1rem;
     color: #555;
     margin-top: 1rem;
-    font-weight: 600; /* Bold for Bangla text */
+    font-weight: 600; 
 }
 
 body.dark-mode #bangla-translation {
@@ -154,8 +154,8 @@ body.dark-mode #bangla-translation {
     background-color: #fff;
     color: #333;
     transition: border-color 0.3s, background-color 0.3s, color 0.3s;
-    font-family: 'Hind Siliguri', sans-serif; /* Apply Hind Siliguri to dropdown */
-    font-weight: 600; /* Bold for Bangla text */
+    font-family: 'Hind Siliguri', sans-serif; 
+    font-weight: 600; 
 }
 
 body.dark-mode #hadithBook {
@@ -214,7 +214,7 @@ body.dark-mode .btn-outline-primary:hover {
 /* Default styles for buttons */
 .button-container {
     display: flex;
-    flex-direction: column; /* Stack buttons vertically */
+    flex-direction: column; 
     gap: 10px; /* Add a gap between buttons */
 }
 
