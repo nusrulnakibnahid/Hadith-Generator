@@ -21,7 +21,7 @@ body.dark-mode {
 
 /* Top Right Options (Language and Theme Toggle) */
 .top-right-options {
-    position: absolute;
+    position: absolute;  
     top: 20px;
     right: 20px;
     z-index: 1000;
