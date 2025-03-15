@@ -137,13 +137,13 @@ body.dark-mode #book {
 #bangla-translation {
     font-family: 'Hind Siliguri', sans-serif; 
     font-size: 1.1rem;
-    color: #555;
+    color: rgb(229, 33, 33);
     margin-top: 1rem;
     font-weight: 600; 
 }
 
 body.dark-mode #bangla-translation {
-    color: #ddd;
+    color: rgb(223, 63, 63);
 }
 
 /* Hadith Book Selection */

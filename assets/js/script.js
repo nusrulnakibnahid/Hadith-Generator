@@ -119,12 +119,12 @@ const translateToBangla = async (text) => {
             banglaElement.textContent = `বাংলা অনুবাদ: ${data.translatedText}`;
         } else {
             
-            banglaElement.textContent = "বাংলা অনুবাদ: শিগগিরই উপলব্ধ হবে...";
+            banglaElement.textContent = "বাংলা অনুবাদ: শিগগিরই উপলব্ধ হবে.....";
         }
     } catch (error) {
         console.error("Error translating Hadith:", error);
         
-        banglaElement.textContent = "বাংলা অনুবাদ: শিগগিরই উপলব্ধ হবে...";
+        banglaElement.textContent = "বাংলা অনুবাদ: শিগগিরই উপলব্ধ হবে.....";
     }
 };
 
